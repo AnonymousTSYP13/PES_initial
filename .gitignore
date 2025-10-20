@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+# Data / outputs / notebooks
+NILM/outputs/models
+Classification/model/
+Classification/data/
+NILM/data/
+*.ipynb_checkpoints
+# IDE
+.vscode/
+.idea/
+# OS
+Thumbs.db
+.DS_Store
+# Models / large files (consider Git LFS instead)
+*.h5
+*.pkl
